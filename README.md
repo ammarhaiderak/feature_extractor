@@ -10,6 +10,8 @@ The output of this tools is a csv file that contains one flow per row, in other 
 for anomaly detection using Machine Learning/ Deep Learning models. This was created for research purpose i.e University
 Final Year Project: "Advanced Network Intrusion Detection System using Deep Learning".
 
+See flow features at : https://github.com/ammarhaiderak/feature_extractor/blob/master/IMG-20200216-WA0000.jpg
+
 Following are instructins to run the tool:
 1. install packages by following this link: https://github.com/ammarhaiderak/pkt2flow
 2. install tshark package
