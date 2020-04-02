@@ -3,7 +3,7 @@ Flowbased network packet feature extractor in Python
 
 note: I have integrated another tool available online https://github.com/caesar0301/pkt2flow.
 So I acknowledge that "pkt2flow" tool is not my work. 
-It is preferable to use linux OS to run this tools smoothly.
+It is preferable to use linux OS to run this tool smoothly.
 
 This tool enables you to extract flow based features from packet capture (pcap file) over a certain amount of time. 
 The output of this tools is a csv file that contains one flow per row, in other words it outputs a dataset which can be used
