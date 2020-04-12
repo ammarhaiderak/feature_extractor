@@ -132,7 +132,7 @@ def process(packetsfile,f2,result_writer,flowno):#processes 1 flow at a time
       packetlist.append(features)
       
       
-      flowfeats['inter_pkt_arrival']+=float(features.get('frame.time_delta'))
+      flowfeats['inter_pkt_arrival']+=float(features.get('frame.time_delta'))   #it is average inter arrival rate for both forward and backwards combined
       
       flowfeats['flow_no']=flowno
       
